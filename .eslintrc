@@ -1,0 +1,90 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2019,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "legacyDecorators": true
+        }
+    },
+    "globals": {
+        "document": true,
+        "window": true,
+        "fetch": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "plugin:jsx-a11y/recommended"
+    ],
+    "settings": {
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx", ".mjs", ".json"]
+    },
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "sonarjs",
+        "no-loops",
+        "no-use-extend-native",
+        "promise",
+        "import"
+    ],
+    "rules": {
+        "no-useless-escape": 0,
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/prop-types": 0,
+        "max-len": [1, 120, 4],
+        "react/jsx-filename-extension": 2,
+        "jsx-a11y/click-events-have-key-events": 1,
+        "no-loops/no-loops": 2,
+        "no-use-extend-native/no-use-extend-native": 1,
+        "sonarjs/cognitive-complexity": ["error", 30],
+        "no-shadow": 1,
+        "no-unused-vars": 1,
+        "default-case": 1,
+        "import/no-extraneous-dependencies": 1,
+        "react/jsx-props-no-spreading": 0,
+        "func-names": 0,
+        "no-mixed-operators": 2,
+        "no-console": 0,
+        "no-multi-assign": 1,
+        "import/no-cycle": 0,
+        "no-return-assign": 1,
+        "no-nested-ternary": 0,
+        "import/prefer-default-export": 1,
+        "no-prototype-builtins": 0,
+        "react/no-array-index-key": 2,
+        "no-restricted-syntax": 0,
+        "no-bitwise": 0,
+        "react/no-unescaped-entities": 2,
+        "no-underscore-dangle": 0,
+        "react/prefer-stateless-function": 1,
+        "max-classes-per-file": 0,
+        "camelcase": 2,
+        "no-param-reassign": 2,
+        "no-plusplus": 2,
+        "consistent-return": 0,
+        "import/no-dynamic-require": 2,
+        "react/state-in-constructor": 0,
+        "react/no-access-state-in-setstate": 2,
+        "quotes": [1, "single"],
+        "no-await-in-loop": 0,
+        "class-methods-use-this": 0,
+        "no-case-declarations": 1,
+        "jsx-a11y/mouse-events-have-key-events": 0,
+        "linebreak-style": 0,
+        "lines-between-class-members": 0,
+        "import/extensions": ["error", "ignorePackages", {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never",
+            "mjs": "never",
+            "json": "never"
+        }]
+    }
+}
