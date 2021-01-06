@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,gBACI,WAAY,CACZ,QAAS,CACT,eAAgB,CAChB,wBAAiB,CAAjB,oBAAiB,CAAjB,gBACJ","file":"main.abfe1074.chunk.css","sourcesContent":["html, body, #root {\n    height: 100%;\n    margin: 0;\n    overflow: hidden;\n    user-select: none;\n}\n"]}
